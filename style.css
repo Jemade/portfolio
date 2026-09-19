@@ -17,14 +17,14 @@ html { scroll-behavior: smooth; }
 body { background: var(--bg); color: var(--text); font-family: var(--sans); line-height: 1.6; overflow-x: hidden; }
 a { color: inherit; }
 
-.site-header { align-items: center; border-bottom: 1px solid var(--border); display: flex; height: 76px; justify-content: space-between; padding: 0 clamp(1.5rem, 6vw, 6rem); position: sticky; top: 0; z-index: 10; background: rgba(11, 13, 15, .94); backdrop-filter: blur(14px); }
-.logo { color: var(--text); font: 500 1.1rem var(--mono); letter-spacing: -.08em; text-decoration: none; }
+.site-header { align-items: center; border-bottom: 1px solid var(--border); display: flex; flex-wrap: nowrap; height: 76px; justify-content: space-between; padding: 0 clamp(1.5rem, 6vw, 6rem); position: sticky; top: 0; z-index: 10; background: rgba(11, 13, 15, .94); backdrop-filter: blur(14px); }
+.logo { color: var(--text); flex-shrink: 0; font: 500 1.1rem var(--mono); letter-spacing: -.08em; text-decoration: none; }
 .logo span, .eyebrow span { color: var(--accent); }
-nav { display: flex; gap: clamp(1rem, 3vw, 2.3rem); }
-.nav-link { color: var(--muted); font-size: .78rem; text-decoration: none; transition: color .2s ease; }
+nav { display: flex; gap: clamp(1rem, 3vw, 2.3rem); min-width: 0; overflow-x: auto; }
+.nav-link { color: var(--muted); font-size: .78rem; text-decoration: none; transition: color .2s ease; white-space: nowrap; }
 .nav-link:hover, .nav-link.active { color: var(--text); }
 .nav-link.active::before { color: var(--accent); content: "·"; margin-right: .35rem; }
-.header-links { display: flex; gap: .9rem; }
+.header-links { display: flex; flex-shrink: 0; gap: .9rem; }
 .header-links a { color: var(--muted); display: flex; transition: color .2s ease; }
 .header-links a:hover { color: var(--accent); }
 .header-links svg { height: 17px; width: 17px; }
@@ -90,8 +90,8 @@ footer { color: var(--muted); display: flex; font: .65rem var(--mono); justify-c
 .reveal.active { opacity: 1; transform: translateY(0); }
 
 @media (max-width: 760px) {
-    .site-header { height: auto; min-height: 70px; padding: 1rem 1.5rem; }
-    nav { gap: .85rem; margin: 0 1rem; overflow-x: auto; }
+    .site-header { flex-wrap: wrap; height: auto; min-height: 70px; padding: 1rem 1.5rem; }
+    nav { flex-wrap: nowrap; gap: .85rem; margin: 0 1rem; order: 3; overflow-x: auto; width: 100%; }
     .nav-link { white-space: nowrap; }
     .header-links { display: none; }
     .hero, .section { grid-template-columns: 1fr; }
