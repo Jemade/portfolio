@@ -1,6 +1,6 @@
-lucide.createIcons();
+if (window.lucide) window.lucide.createIcons();
 
-const sections = document.querySelectorAll("main section[id]");
+const sections = document.querySelectorAll("main section[id]:not(#certs)");
 const navLinks = document.querySelectorAll(".nav-link");
 
 const sectionObserver = new IntersectionObserver((entries) => {
