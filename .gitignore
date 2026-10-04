@@ -1,0 +1,18 @@
+
+
+# Local runtime and private configuration
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+.env
+.env.local
+.env.*.local
+*.db
+*.sqlite
+*.sqlite3
+.DS_Store
