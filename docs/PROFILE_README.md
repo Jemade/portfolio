@@ -8,6 +8,7 @@ Software Engineer based in Harare, Zimbabwe. I build backend services, APIs, web
 
 | Project | What to inspect |
 | --- | --- |
+| [CBIN](https://github.com/Jemade/CBIN) | B2B invoice exchange, buyer review and durable bookkeeping jobs; development MVP |
 | [BridgeSync](https://github.com/Jemade/BridgeSync) | Durable delivery, reconciliation, isolation and regression tests |
 | [AgentBench](https://github.com/Jemade/AgentBench) | Sandbox execution, verifier correctness and evaluation evidence |
 | [RAG System](https://github.com/Jemade/RAG-SYSTEM) | Retrieval telemetry, grounding checks and evaluation harness |

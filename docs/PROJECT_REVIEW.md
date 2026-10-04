@@ -6,6 +6,7 @@ Baseline prepared on 4 October 2026. The repository links below provide source c
 
 | Repository | Automated evidence | Implementation notes | Licensing status | Inspected source base |
 | --- | --- | --- | --- | --- |
+| [CBIN](https://github.com/Jemade/CBIN) | [Checks](https://github.com/Jemade/CBIN/actions) | [Bookkeeping](https://github.com/Jemade/CBIN/blob/main/docs/BOOKKEEPING.md) | Check repository reuse terms | `f53a9c3` |
 | [API-WRAPPER](https://github.com/Jemade/API-WRAPPER) | [Checks](https://github.com/Jemade/API-WRAPPER/actions) | [Engineering](https://github.com/Jemade/API-WRAPPER/blob/main/docs/ENGINEERING.md) | MIT present | `76f199e` |
 | [AgentBench](https://github.com/Jemade/AgentBench) | [Checks](https://github.com/Jemade/AgentBench/actions) | [Engineering](https://github.com/Jemade/AgentBench/blob/main/docs/ENGINEERING.md) | MIT present | `798dae6` |
 | [Avantis-support](https://github.com/Jemade/Avantis-support) | [Checks](https://github.com/Jemade/Avantis-support/actions) | [Engineering](https://github.com/Jemade/Avantis-support/blob/main/docs/ENGINEERING.md) | Owner must select reuse terms | `82319c4` |
@@ -31,6 +32,8 @@ Baseline prepared on 4 October 2026. The repository links below provide source c
 - Updated portfolio links and added the four missing flagship project cards.
 
 Follow the actual Actions run for the commit being assessed. A green documentation check does not replace application tests, browser checks or deployment verification.
+
+CBIN is a development MVP. Its simulated ledger and prototype Odoo/Zoho integrations do not establish production readiness or live customer use.
 
 ## Profile settings prepared for the account owner
 

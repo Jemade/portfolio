@@ -8,6 +8,7 @@ Personal portfolio for my Python and JavaScript work: backend services, APIs, we
 
 | Project | Focus |
 | --- | --- |
+| [CBIN](https://github.com/Jemade/CBIN) | B2B invoice exchange, buyer review and durable bookkeeping jobs; development MVP |
 | [BridgeSync](https://github.com/Jemade/BridgeSync) | Order delivery, durable jobs, and payment reconciliation |
 | [AgentBench](https://github.com/Jemade/AgentBench) | Python coding-agent evaluation and inspectable evidence |
 | [RAG System](https://github.com/Jemade/RAG-SYSTEM) | Retrieval telemetry, evidence checks and evaluation |
